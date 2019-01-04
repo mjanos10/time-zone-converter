@@ -46,6 +46,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  max-width: 975px;
+  margin: 0 auto;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -78,6 +83,7 @@ h1 {
 
   .time-zones__elem {
     margin-bottom: 0;
+    flex: 2;
   }
 }
 
