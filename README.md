@@ -1,4 +1,6 @@
-# time-zone-converter
+# Time zone converter
+
+A simple app to convert a given time from one time zone to another.
 
 ## Project setup
 ```
