@@ -7,6 +7,14 @@ A simple app to convert a given time from one time zone to another.
 yarn install
 ```
 
+### Deploy
+
+Runs linter, builds the app and deploys it to AWS S3 via serverless.
+
+```
+yarn deploy
+```
+
 ### Compiles and hot-reloads for development
 ```
 yarn run serve
