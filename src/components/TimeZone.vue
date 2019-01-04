@@ -63,7 +63,6 @@ export default {
 .tz__type {
   display: block;
   text-transform: uppercase;
-  margin-bottom: 0.5em;
   font-weight: 700;
   color: #fff;
 }

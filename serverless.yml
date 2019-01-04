@@ -1,0 +1,16 @@
+service: time-zone-converter
+
+plugins:
+  - serverless-finch
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-1
+
+custom:
+  client:
+    bucketName: timezoneconverter.aws.mywebstuff.org
+    distributionFolder: dist
+    indexDocument: index.html
+    errorDocument: index.html
